@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+	<title>Frankenstein habla</title>
+	<link rel="stylesheet" type ="text/css" href="css/foundation.css"/>
+	<link rel="stylesheet" type ="text/css" href="css/foundation-icons.css"/>
+	<link rel="stylesheet" type="text/css" 	href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="center">
+		<div class="row" id="grid-view">
+			<div class="large-5 large-centered columns">
+				<a href="#" id="img">
+					<img src="img/frankenstein.jpg" id="Franky"/>
+				</a>
+			</div>
+		</div>
+		<div class="row" id="grid-view">
+			<div class="large-5 large-centered columns">
+				<div id="text">
+					<div id="hi" style="display:none;">
+					</div>
+					<div id="name" style="display:none;">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="./js/require.js" ></script>
+<script type="text/javascript">
+	require(['./js/config'],function(config){
+		require(['main'],function(main){
+		});
+	});
+</script>
+</html>
